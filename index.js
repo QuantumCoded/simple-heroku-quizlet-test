@@ -13,8 +13,7 @@ http.createServer((req, res) => {
             req_res.pipe(
                 res.writeHead(
                     200,
-                    'OK',
-                    {'content-type': 'text/plain'}
+                    'OK'
                 )
             );
         }
